@@ -73,4 +73,4 @@ Developed and maintained by:
 
 For questions or feedback:
 📧 idealizex.anoof.25@gmail.com
-🌐 [[LinkedIn]()](https://www.linkedin.com/in/anoof-ma/)
+🌐 [[LinkedIn](https://www.linkedin.com/in/anoof-ma/)]
