@@ -35,7 +35,7 @@ Traditional education in Sri Lanka often lacks:
 
 ## 🌐 Live Prototype
 
-🔗 [Explore the Prototype(https://ceyquest.framer.ai)
+🔗 [Explore the Prototype([ceyquest.html](https://drive.google.com/file/d/1HRdl8B5sjpF_fTX0xwlTJyhwE8xbT9hj/view?usp=sharing))
 
 🎥 [Demo Video (YouTube/Drive)](https://your-video-link.com) ← *(Replace this with your real video link)*
 
