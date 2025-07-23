@@ -35,7 +35,7 @@ Traditional education in Sri Lanka often lacks:
 
 ## 🌐 Live Prototype
 
-🔗 [Explore the Prototype on Lovable](https://lovable.dev/projects/fc02dafb-871a-4530-b58c-43c702f61cbd)
+🔗 [Explore the Prototype on Lovable](https://ceyquest.framer.ai)
 
 🎥 [Demo Video (YouTube/Drive)](https://your-video-link.com) ← *(Replace this with your real video link)*
 
@@ -67,11 +67,10 @@ npm run dev
 This is an open prototype developed for **Idealize 2025** by AIESEC in University of Moratuwa.
 
 Developed and maintained by:
-- **Anoof MA (Hamza)** – Full-stack Dev, Product Designer
-- *(Add your team members here)*
+- **Anoof MA ** – Full-stack Dev, Product Designer
 
 ## 📬 Contact
 
 For questions or feedback:
-📧 your.email@example.com  
-🌐 [Your Portfolio or LinkedIn]()
+📧 idealizex.anoof.25@gmail.com
+🌐 [[LinkedIn]()](https://www.linkedin.com/in/anoof-ma/)
