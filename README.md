@@ -62,13 +62,10 @@ npm install
 npm run dev
 ```
 
-## 👨‍💻 Contribution & Access
+👨‍💻 Contribution & Access
+CeyQuest is a personal creation developed from scratch by Anoof MA for Idealize 2025, organized by AIESEC in University of Moratuwa.
 
-This is an open prototype developed for **Idealize 2025** by AIESEC in University of Moratuwa.
-
-Developed and maintained by:
-- **Anoof MA ** – Full-stack Dev, Product Designer
-
+This is a solo project — from ideation, design, to development — entirely built and maintained by me.
 ## 📬 Contact
 
 For questions or feedback:
