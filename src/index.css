@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* CeyQuest Design System - Dark theme with purple gradients */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 270 91% 65%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 270 91% 65%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 270 91% 65%;
+
+    --radius: 0.75rem;
+
+    /* CeyQuest specific colors */
+    --ceyquest-purple: 270 91% 65%;
+    --ceyquest-purple-dark: 270 91% 45%;
+    --ceyquest-purple-light: 270 91% 75%;
+    --ceyquest-background: 240 10% 3.9%;
+    --ceyquest-surface: 240 4% 16%;
+    --ceyquest-surface-hover: 240 6% 20%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(270 91% 65%) 0%, hsl(300 91% 65%) 50%, hsl(270 91% 45%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(240 10% 3.9%) 0%, hsl(240 4% 16%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(270 91% 65% / 0.1) 0%, hsl(300 91% 65% / 0.05) 100%);
+    
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(270 91% 65% / 0.3);
+    --shadow-card: 0 8px 32px hsl(240 10% 3.9% / 0.4);
+    --shadow-elevated: 0 16px 64px hsl(240 10% 3.9% / 0.6);
+
+    --sidebar-background: 240 10% 3.9%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 270 91% 65%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4% 16%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 4% 16%;
+    --sidebar-ring: 270 91% 65%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 270 91% 65%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 270 91% 65%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 270 91% 65%;
+    
+    --sidebar-background: 240 10% 3.9%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 270 91% 65%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4% 16%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 4% 16%;
+    --sidebar-ring: 270 91% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.nav-shutter {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-shutter::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #a259ff, #6a1b9a);
+  z-index: 1;
+  border-radius: 9999px;
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+
+.nav-shutter:hover::after,
+.nav-shutter:focus-visible::after {
+  transform: translateY(0%);
+}
+
+.nav-shutter .nav-shutter-content {
+  position: relative;
+  z-index: 2;
+  transition: color 0.3s;
+}
+
+.nav-shutter:hover .nav-shutter-content,
+.nav-shutter:focus-visible .nav-shutter-content {
+  color: #fff;
+}
